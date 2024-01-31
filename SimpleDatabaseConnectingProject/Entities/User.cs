@@ -12,6 +12,6 @@
 
         public string PhoneNumber { get; set; }
 
-
+        public ICollection<UserSelectedRoles> UserSelectedRoles { get; set; }
     }
 }
